@@ -3,45 +3,47 @@
 <link href="style.css" rel="stylesheet" type="text/css">
 <body> 
 
-<h1><strong><em><center>SAP Meeting Room Catering</em></strong><br></center>
-</h1> 
-<p>This form is going to be used to order food and record meeting info.</p>
-
 <form action="/action_page.php">
   <fieldset>
-    <legend>Meeting info.</legend>
+  <header>
+<h1><strong><em><center>SAP Meeting Room Catering</em></strong><br></center>
+</h1>
+<p>This form is going to be used to order food and record meeting info.</p>
+</header>
+    <h2 class=sub>Meeting Info.</h2>
     First name:<br>
-    <input type="text" name="firstname" value="Talha">
+    <input class=First type="text" name="firstname" value="Talha">
     <br>
     Last name:<br>
-    <input type="text" name="lastname" value="Shaikh">
+    <input class=Last type="text" name="lastname" value="Shaikh">
     <br><br>
 	  # of Attendees:
-  <input type="number" name="quantity"
+  <input class=Attendees type="number" name="quantity"
    min="1" max="30" step="1" value="10">
 	  <br><br>
     Start Time:
-  <input type="time" name="usr_time">
+  <input class=Start type="time" name="usr_time">
 	<br><br>
 	End time:
-  <input type="time" name="usr_time">
+  <input class=End type="time" name="usr_time">
   
   </fieldset>
 	<fieldset>
-    <legend>Catering Company</legend>
+    <h2 class=sub>Catering Company</h2>
     Company Name:<br>
-    <input type="text" name="firstname" value="Talha">
+    <input class=Company type="text" name="firstname" value="Talha">
    
     <br><br>
 	  Setup Time:
-  <input type="time" name="usr_time">
-	  <br>
+  <input class=Setup type="time" name="usr_time">
+	  <br><br>
+	  <form-submit-button></form-submit-button>	
+<input class=submit type="submit">
  
   </fieldset>
 	<br>
 	
 </form>
-<form-submit-button></form-submit-button>	
-<input type="submit">
+
 </body>
 </html>
