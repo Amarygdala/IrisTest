@@ -6,7 +6,7 @@
 
 </header>
 <body>
-	Enter the ID of the record you wish to delete.
+	<h3>Enter the ID of the record you wish to delete.</h3>
 <form action="" method="POST">
     <input type= "number" name="ID" placeholder="ID">
     <input type="submit">
@@ -15,6 +15,7 @@
 
 	include("C:\Users\Dshop\Desktop\maybexampp\htdocs\Iristestproject\connection.php");
     $sql = "SELECT * FROM iris;";
+    $sql1="SELECT * FROM iris WHERE Sepal_length = 5";
     $result = mysqli_query( $connection, $sql );
 
     $resultCheck = mysqli_num_rows($result);

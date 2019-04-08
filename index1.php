@@ -5,9 +5,12 @@
 		<title>Iris Test Form</title>
 		<link rel="stylesheet" href="style.css">
 	<body>
+
+
 <form action="action.php" method="POST">
    <div class="login-box">
-   	<h1>Iris Test Form</h1>
+   	<h1>Iris Test Form</h1> 
+
     <input type= "number" step="any" name="sepal_lengp" placeholder="Sepal Length">
     <input type= "number" step="any" name="sepal_widthp" placeholder="Sepal Width">
     <input type= "number" step="any" name="petal_lengp" placeholder="Petal Length">
@@ -20,9 +23,14 @@
     </div>
  </select>
     <input type="submit">
+
 </form>
+
+
 <form action="deleteRecord.php" method="POST">
 	<button type="submit">Delete Records</button>
 </form>
+
+
 </body>
 </html>

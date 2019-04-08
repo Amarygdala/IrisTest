@@ -7,10 +7,9 @@
 	$petal_lengp = $_POST["petal_lengp"]??'';
 	$petal_widthp = $_POST["petal_widthp"]??'';
 	$flower_typep = $_POST["Flower_type"]??'';
- 	echo $sepal_lengp, $sepal_widthp, $petal_lengp, $petal_widthp, $flower_typep;
 
 
 	$dbinsert = "INSERT INTO iris (Sepal_length, Sepal_width, Petal_length, Petal_width, Flower_type) VALUES ('$sepal_lengp', '$sepal_widthp', '$petal_lengp', '$petal_widthp', '$flower_typep');";
 
 	mysqli_query( $connection, $dbinsert ); 
-	header("Location: ../Iristestproject/index1.php");
+	header("Location: ../Iristestproject/index1.php?=success");
