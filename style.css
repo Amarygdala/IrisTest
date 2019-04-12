@@ -1,42 +1,98 @@
-body{
-	margin:0;
+
+<style>
+aside, article, section, header, footer, nav {
+	display: block;
+}
+html, body {
+	margin: 0;
 	padding: 0;
-	font-family: sans-serif;
-	background: url(bg.jpg);
-	background-size:cover;
 
 }
-.login-box{
-	width: 280px;
-	position: absolute;
-	top:50%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-	color: white;
+html{
+	background: url(bg.jpg) no-repeat;
+	background-size: cover;
+}
+body{
+	background-color: rgba(135,206,250,0.2);
+	width: 700px;
+	margin: 2em auto 2em;
+	font: 100% Arial, Helvetica, sans-serif;
+	padding: 25px;
+
 }
 h1{
-	float: left;
-	font-size: 40px;
-	border-bottom: 6px solid #4caf50;
-	margin-bottom: 50px;
-	padding: 13px 0
-}
-input{
-	width:100%;
-	overflow: hidden;
-	font-size: 20px;
-	padding: 8px 0;
-	margin:8px 0;
-}
-select{
-	width:100%;
-	overflow: hidden;
-	font-size: 20px;
-	padding: 8px 0;
-	margin:8px 0;
-}
-form{
-	width:26px;
-	float: left;
 	text-align: center;
+	border-bottom: 6px solid #FFCC66;
+	padding: 13px 0;
+	color: skyblue;
+}
+.formclass {
+	width: 80%;
+
+ 	border-radius: 5px;
+ 	transform: translate(3em);
+}
+.formclass input,select{
+	width: 100%;
+	border: 1px solid #ccc;
+	margin: 20px;
+	padding: 14px 15px;
+	box-sizing: border-box;
+	border-radius: 5px;
+	display: inline-block;
+	background: rgba(211,211,211,.5);
+
+}
+.formclass button{
+	width: 100%;
+	margin: 20px;
+	padding: 14px 15px;
+	box-sizing: border-box;
+	border-radius: 5px;
+	border: none;
+	background-color:  #4CAF50;
+	color: white;
+	font-size: 1em;
+}
+.formclass label{
+	color: skyblue;
+	font-size: 1.2em;
+}
+button[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.burger{
+  width: 40px;
+  height: 7px;
+  background-color: black;
+  margin: 6px 0;
+
+}
+
+@media only screen and (min-width: 600px) and (max-width: 920px){
+	body{
+		width: 90%;
+	}
+}
+@media	only screen and (max-width: 599px) and (max-height: 797px){
+	html{
+	}
+	body{
+		width: 80%;
+
+	}
+	.formclass input,select{
+		margin: 10px;
+		transform: translate(-2em);
+	}
+	.formclass button{
+		margin: 10px;
+		transform: translate(-1.7em);
+	}
+	.formclass label{
+		position: relative;
+		right: 50px;
+
+	}
 }
