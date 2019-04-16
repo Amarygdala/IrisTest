@@ -3,6 +3,7 @@
 aside, article, section, header, footer, nav {
 	display: block;
 }
+
 html, body {
 	margin: 0;
 	padding: 0;
@@ -18,7 +19,13 @@ body{
 	margin: 2em auto 2em;
 	font: 100% Arial, Helvetica, sans-serif;
 	padding: 25px;
-
+}
+img{
+	width:40%;
+	height:40%;
+	position: inherit; 
+	left: 740px;
+	transform: translate(127%,0);
 }
 h1{
 	text-align: center;
@@ -53,6 +60,7 @@ h1{
 	background-color:  #4CAF50;
 	color: white;
 	font-size: 1em;
+
 }
 .formclass label{
 	color: skyblue;
@@ -60,22 +68,49 @@ h1{
 }
 button[type=submit]:hover {
   background-color: #45a049;
+  cursor: pointer;
 }
 
 .burger{
-  width: 40px;
-  height: 7px;
-  background-color: black;
-  margin: 6px 0;
-
+  width: 4.1em;
+  height: 1.1em;
+  background-color: #3498DB;
+  color: white;
+  margin: 5px 0;
+  position: relative;
+  pointer-events: none;
 }
+.dropbtn{
+	background-color: transparent;
+	cursor: pointer;
+	width: 5em;
+	height: 5em;
+	border: none;
+	pointer-events: visible;
+}
+.menuContent{
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 160px;
+	z-index: 1;
+	pointer-events: visible;
+}
+.menuContent a{
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	pointer-events: visible;
+
+}.menuContent a:hover{background-color: #ddd}.show{display:block;}
 
 @media only screen and (min-width: 600px) and (max-width: 920px){
 	body{
 		width: 90%;
 	}
 }
-@media	only screen and (max-width: 599px) and (max-height: 797px){
+@media	only screen and (max-width: 599px){
 	html{
 	}
 	body{
@@ -95,4 +130,5 @@ button[type=submit]:hover {
 		right: 50px;
 
 	}
+
 }
