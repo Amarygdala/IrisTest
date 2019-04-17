@@ -4,6 +4,9 @@
 
 </header>
 <body>
+
+<div class=box></div>
+<div id="sidebar"></div>
 <div class="burgerTOP">
 <div class="burger">
     <button onclick="dropFunction()" class="dropbtn"></button>
@@ -13,14 +16,18 @@
         <a href="deleteRecord.php">Delete Record</a>
     </div>
 </div>
+<div class="burger"></div>
+<div class="burger"></div>
+</div>
+<div class="formTOP">
 
-<div class="burger"></div>
-<div class="burger"></div>
 <form action="" method="POST">
     <input type= "number" name="ID" placeholder="ID">
     <button type="submit">Delete</button>
 </form>
 </div>
+
+
 <script type="text/javascript">
     function dropFunction(){
         document.getElementById("dropMenu").classList.toggle("show");
@@ -66,3 +73,5 @@ echo "</table>"; //Close the table in HTML
 
 
 ?>
+</body>
+</html>

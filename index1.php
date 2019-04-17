@@ -1,14 +1,29 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
 		<meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
 		<title>Iris Test Form</title>
 		<link rel="stylesheet" href="style.css">
+        
     </head>
 	<body>
-
-
+<div id="sidebar">
+    <div class="togglebtn" onclick="toggleSidebar()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+        <a href="index1.php">Form</a>
+        <a href="showTable.php">Show Table</a>
+        <a href="deleteRecord.php">Delete Record</a>
+</div>
+<script type="text/javascript">
+    function toggleSidebar(){
+        document.getElementById("sidebar").classList.toggle('active');
+    }
+</script>
 <div class="burger">
     <button onclick="dropFunction()" class="dropbtn"></button>
     <div id="dropMenu" class="menuContent">
