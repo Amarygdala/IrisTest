@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
 		<title>Iris Test Form</title>
 		<link rel="stylesheet" href="style.css">
+		<script src="formfunct.js"></script>
         
     </head>
 	<body>
