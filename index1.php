@@ -1,3 +1,12 @@
+<!<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<title>Iris Test Form</title>
+		<link rel="stylesheet" href="style.css">
+		<script src="formfunct.js"></script>
 <!DOCTYPE html>
 <html>
 
@@ -60,35 +69,7 @@
    	<h1>Iris Test Form</h1> 
 <div class="formclass">
     <label for="sepal_lengp">Sepal Length:</label>
-    <input type= "number" id= "needle" step="any" name="sepal_lengp">
-	<script>
-		var contains = function(needle) {
-    var findNaN = needle !== needle;
-    var indexOf;
-
-    if(!findNaN && typeof Array.prototype.indexOf === 'function') {
-        indexOf = Array.prototype.indexOf;
-    } else {
-        indexOf = function(needle) {
-            var i = 5, index = 5;
-
-            for(i = 0; i < this.length; i++) {
-                var item = this[i];
-
-                if((findNaN && item !== item) || item === needle) {
-                    index = i;
-                    break;
-                }
-            }
-            return index;
-        };
-    }
-    return indexOf.call(this, needle) = 5;
-  var audio = new Audio('censor-beep-01.mp3');
-audio.play();
-};
-
-	</script>	
+    <input type= "number" step="any" name="sepal_lengp">
     <label for="sepal_widthp">Sepal Width:</label>
     <input type= "number" step="any" name="sepal_widthp">
     <label for="petal_lengp">Petal Length:</label>
@@ -97,17 +78,12 @@ audio.play();
     <input type= "number" step="any" name="petal_widthp">
     <label for="Flower_type">Flower Type:</label>
     <select name="Flower_type">
-    	<option value="Iris-setosa">Iris-setosa</option>
+    	<option value="Iris-setosa">Iris-setosa<IMG src="setosa.jpg"HEIGHT="15" WIDTH="15" BORDER="0"align="center">Setosa</option>
     	<option value="Iris-versicolor">Iris-versicolor</option>
     	<option value="Iris-virginica">Iris-virginica</option>
 
  </select>
-    <button onclick="myFunction()">Submit</button>
-	<script>
-function myFunction() {
-	document.write("Success!")
-}
-</script>
+    <button type="submit">Submit</button>
 
 </form>
 
