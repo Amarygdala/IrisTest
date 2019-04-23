@@ -60,7 +60,35 @@
    	<h1>Iris Test Form</h1> 
 <div class="formclass">
     <label for="sepal_lengp">Sepal Length:</label>
-    <input type= "number" step="any" name="sepal_lengp">
+    <input type= "number" id= "needle" step="any" name="sepal_lengp">
+	<script>
+		var contains = function(needle) {
+    var findNaN = needle !== needle;
+    var indexOf;
+
+    if(!findNaN && typeof Array.prototype.indexOf === 'function') {
+        indexOf = Array.prototype.indexOf;
+    } else {
+        indexOf = function(needle) {
+            var i = 5, index = 5;
+
+            for(i = 0; i < this.length; i++) {
+                var item = this[i];
+
+                if((findNaN && item !== item) || item === needle) {
+                    index = i;
+                    break;
+                }
+            }
+            return index;
+        };
+    }
+    return indexOf.call(this, needle) = 5;
+  var audio = new Audio('censor-beep-01.mp3');
+audio.play();
+};
+
+	</script>	
     <label for="sepal_widthp">Sepal Width:</label>
     <input type= "number" step="any" name="sepal_widthp">
     <label for="petal_lengp">Petal Length:</label>
@@ -74,7 +102,12 @@
     	<option value="Iris-virginica">Iris-virginica</option>
 
  </select>
-    <button type="submit">Submit</button>
+    <button onclick="myFunction()">Submit</button>
+	<script>
+function myFunction() {
+	document.write("Success!")
+}
+</script>
 
 </form>
 
