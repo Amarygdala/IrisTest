@@ -23,6 +23,6 @@ var contains = function(needle) {
     }
 
     return indexOf.call(this, needle) > -1;
-  var audio = new Audio('audio_file.mp3');
+  var audio = new Audio('censor-beep-01.mp3');
 audio.play();
 };
