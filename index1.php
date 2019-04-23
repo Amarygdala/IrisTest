@@ -69,9 +69,9 @@
     <input type= "number" step="any" name="petal_widthp">
     <label for="Flower_type">Flower Type:</label>
     <select name="Flower_type">
-    	<option value="Iris-setosa">Iris-setosa</option>
-    	<option value="Iris-versicolor">Iris-versicolor</option>
-    	<option value="Iris-virginica">Iris-virginica</option>
+    	<option style="background-image:url(setosa.jpg);" value="Iris-setosa">Iris-setosa</option>
+    	<option style="background-image:url(versicolour.jpg);" value="Iris-versicolor">Iris-versicolor</option>
+    	<option style="background-image:url(virginica.jfif);" value="Iris-virginica">Iris-virginica</option>
 
  </select>
     <button type="submit">Submit</button>
