@@ -61,13 +61,6 @@
 <div class="formclass">
     <label for="sepal_lengp">Sepal Length:</label>
     <input type= "number" step="any" name="sepal_lengp">
-	<script>
-		
-  var audio = new Audio('censor-beep-01.mp3');
-audio.play();
-};
-
-	</script>	
     <label for="sepal_widthp">Sepal Width:</label>
     <input type= "number" step="any" name="sepal_widthp">
     <label for="petal_lengp">Petal Length:</label>
@@ -81,15 +74,7 @@ audio.play();
     	<option value="Iris-virginica">Iris-virginica</option>
 
  </select>
-    <button onclick="myFunction()">Submit</button>
-	<script>
-function myFunction() {
-	document.write("Success!")
-	var x = document.getElementByClass("formclass").value;
-  document.getElementById("demo").innerHTML = x;
-}
-}
-</script>
+    <button type="submit">Submit</button>
 
 </form>
 
