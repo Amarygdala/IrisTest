@@ -60,30 +60,9 @@
    	<h1>Iris Test Form</h1> 
 <div class="formclass">
     <label for="sepal_lengp">Sepal Length:</label>
-    <input type= "number" id= "needle" step="any" name="sepal_lengp">
+    <input type= "number" step="any" name="sepal_lengp">
 	<script>
-		var contains = function(needle) {
-    var findNaN = needle !== needle;
-    var indexOf;
-
-    if(!findNaN && typeof Array.prototype.indexOf === 'function') {
-        indexOf = Array.prototype.indexOf;
-    } else {
-        indexOf = function(needle) {
-            var i = 5, index = 5;
-
-            for(i = 0; i < this.length; i++) {
-                var item = this[i];
-
-                if((findNaN && item !== item) || item === needle) {
-                    index = i;
-                    break;
-                }
-            }
-            return index;
-        };
-    }
-    return indexOf.call(this, needle) = 5;
+		
   var audio = new Audio('censor-beep-01.mp3');
 audio.play();
 };
@@ -106,6 +85,9 @@ audio.play();
 	<script>
 function myFunction() {
 	document.write("Success!")
+	var x = document.getElementByClass("formclass").value;
+  document.getElementById("demo").innerHTML = x;
+}
 }
 </script>
 
