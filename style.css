@@ -10,9 +10,14 @@ html, body {
 
 }
 html{
-	background: url(bg.jpg) no-repeat;
-	background-size: cover;
+	background: url("bg.jpg");
+  height: 500px;
 }
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+
 body{
 	background-color: rgba(135,206,250,0.2);
 	width: 700px;
@@ -32,6 +37,19 @@ h1{
 	border-bottom: 6px solid #FFCC66;
 	padding: 13px 0;
 	color: skyblue;
+}
+.parallax {
+  /* The image used */
+  background-image: url("img_parallax.jpg");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .formclass {
 	width: 80%;
