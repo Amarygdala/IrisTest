@@ -1,7 +1,7 @@
 
 <!DOCTYPE html>
 <html>
-<div class="parallax-window" data-parallax="scroll" data-image-src="setosa.jpg"></div>
+
 	<head>
 		<meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
@@ -19,11 +19,25 @@
         <a href="deleteRecord.php">Delete Record</a>
     </div>
 </div>
-<div class="parallax"></div>
+
 <div class="burger"></div>
 <div class="burger"></div>
 
-
+<script>
+function parallax(){
+	var prlx_lyr_1 = document.getElementById('prlx_lyr_1');
+	var prlx_lyr_2 = document.getElementById('prlx_lyr_2');
+	prlx_lyr_1.style.top = -(window.pageYOffset / 4)+'px';
+	prlx_lyr_2.style.top = -(window.pageYOffset / 8)+'px';
+}
+window.addEventListener("scroll", parallax, false);
+</script>
+</head>
+<body>
+<div id="prlx_lyr_1"></div>
+<div id="prlx_lyr_2"></div>
+<div id="content_layer"> <script> for(var i=1; i < 50; i++)
+	</div>
 
 <script type="text/javascript">
     function dropFunction(){

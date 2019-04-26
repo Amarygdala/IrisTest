@@ -13,7 +13,20 @@ html{
 	background: url("bg.jpg");
   height: 500px;
 }
-
+body{ margin:0px; background:url(bg.jpg) fixed;}
+#prlx_lyr_1{
+	position:fixed;
+	background: url:(bg.jpg) no-repeat 0px 200px;
+	width:100%;
+	height:800px;
+}
+#prlx_lyr_2{
+	position:fixed;
+	background: url(bg.jpg) no-repeat 600px 400px;
+	width:100%;
+	height:1000px;
+}
+#content_layer{ position:absolute; }
 body{
 	background-color: rgba(135,206,250,0.2);
 	width: 700px;
