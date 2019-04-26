@@ -1,0 +1,53 @@
+html {
+	margin: 0;
+	padding: 0;
+	}
+body { 
+	font: 120% georgia, sans-serif;
+	line-height: 1.88889;
+	color: #000000; 
+	margin: 0;
+	padding: 0;
+	background-color: #7fbae8;
+	}
+header {
+	background-color: #ffffff;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+fieldset {
+	text-align: center;
+	  display: block;
+  margin-left: 300px;
+  margin-right:300px;
+  padding-top: 0.35em;
+  padding-bottom: 0.625em;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  border: 2px groove (internal value);
+  color: #000000;
+  background-color:#ffffff;
+	}
+input {
+	margin-left: 20px;
+  margin-right:20px;
+  padding-top: 0.35em;
+  padding-bottom: 0.625em;
+  font-size:20px;
+}	
+h2 {
+	font: 100px;
+}
+
+.First {
+}
+
+.Last {
+}
+
+.Attendees {
+}
+
+.Start {
+}

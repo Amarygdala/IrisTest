@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <div class="parallax-window" data-parallax="scroll" data-image-src="setosa.jpg"></div>
@@ -6,9 +7,6 @@
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
 		<title>Iris Test Form</title>
 		<link rel="stylesheet" href="style.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="/path/to/parallax.js"></script>
-		
     </head>
 	<body>
 
@@ -71,4 +69,3 @@
 </div>
 </body>
 <img src="sap.png">
-</html>
