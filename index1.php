@@ -23,18 +23,11 @@
 <div class="burger"></div>
 <div class="burger"></div>
 
-<script>
-function parallax(){
-	var prlx_lyr_1 = document.getElementById('prlx_lyr_1');
-}
-window.addEventListener("scroll", parallax, false);
-</script>
 </head>
 <body>
-<div id="prlx_lyr_1"></div>
-<div id="prlx_lyr_2"></div>
-<div id="content_layer"> <script> for(var i=1; i < 50; i++)
-	</div>
+<div class="setosa"></div>
+<div class="versicolour"></div>
+<div class="virginica"></div>
 
 <script type="text/javascript">
     function dropFunction(){
@@ -71,7 +64,7 @@ window.addEventListener("scroll", parallax, false);
     	<option value="Iris-setosa">Iris-setosa</option>
     	<option value="Iris-versicolor">Iris-versicolor</option>
     	<option value="Iris-virginica">Iris-virginica</option>
-
+		
  </select>
     <button type="submit">Submit</button>
 
