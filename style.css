@@ -17,29 +17,7 @@ html{
 }
 body{ margin:2cm auto 2cm;
 background:url(bg.jpg) fixed;}
-.setosa, .versicolour, .virginica {
-  position: relative;
-  opacity: 0.65;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 
-}
-.setosa {
-  background-image: url("setosa.jpg");
-  min-height: 100%;
-}
-
-.versicolour {
-  background-image: url("versicolour.jpg");
-  min-height: 400px;
-}
-
-.virginica {
-  background-image: url("virginica.jfif");
-  min-height: 400px;
-}
 body{
 	background-color: rgba(135,206,250,0.2);
 	width: 700px;
