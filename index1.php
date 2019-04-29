@@ -7,6 +7,8 @@
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
 		<title>Iris Test Form</title>
 		<link rel="stylesheet" href="style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="/old/jquery-3.4.0.js"></script>
     </head>
 	<body>
 
@@ -25,9 +27,7 @@
 
 </head>
 <body>
-<div class="setosa"></div>
-<div class="versicolour"></div>
-<div class="virginica"></div>
+
 
 <script type="text/javascript">
     function dropFunction(){

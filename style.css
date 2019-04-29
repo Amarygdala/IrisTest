@@ -1,4 +1,3 @@
-
 <style>
 aside, article, section, header, footer, nav {
 	display: block;
@@ -11,12 +10,10 @@ html, body {
 }
 html{
 	background: url("bg.jpg") no-repeat;
-  height: 500px;
+  height: 100%;
   position: absolute;
   background-size:cover;
 }
-body{ margin:2cm auto 2cm;
-background:url(bg.jpg) fixed;}
 
 body{
 	background-color: rgba(135,206,250,0.2);
