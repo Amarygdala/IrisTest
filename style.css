@@ -10,11 +10,12 @@ html, body {
 }
 html{
 	background: url("bg.jpg") no-repeat;
-  height: contain;
-  position: center;
-  background-size:cover;
-    padding: inherit;
-    margin: inherit:
+height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 body{
@@ -24,8 +25,8 @@ body{
 	font: 100% Arial, Helvetica, sans-serif;
 	padding: 25px;
 }
-.parallax-window {
-    min-height: 0px;
+.parallax-window {   
+    min-height:0px;
     background: transparent;
 }
 img{
