@@ -8,10 +8,10 @@
 		<title>Iris Test Form</title>
 		<link rel="stylesheet" href="style.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="/old/jquery-3.4.0.js"></script>
+        <script src="/old/jquery-3.4.0.js"></script>
     </head>
 	<body>
-
+<div class="parallax-window" data-parallax="scroll" data-image-src="bg.jpg"></div>
 
 <div class="burger">
     <button onclick="dropFunction()" class="dropbtn"></button>
@@ -42,6 +42,7 @@
                 if(openDropdown.classList.contains('show')){
                     openDropdown.classList.remove('show');
                 }
+                +
             }
         }
     }

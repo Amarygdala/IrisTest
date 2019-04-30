@@ -4,15 +4,17 @@ aside, article, section, header, footer, nav {
 }
 
 html, body {
-	margin: 0;
-	padding: 0;
+	margin: 2;
+	padding: 2;
 
 }
 html{
 	background: url("bg.jpg") no-repeat;
-  height: 100%;
-  position: absolute;
+  height: contain;
+  position: center;
   background-size:cover;
+    padding: inherit;
+    margin: inherit:
 }
 
 body{
@@ -22,10 +24,14 @@ body{
 	font: 100% Arial, Helvetica, sans-serif;
 	padding: 25px;
 }
+.parallax-window {
+    min-height: 0px;
+    background: transparent;
+}
 img{
-	width:40%;
+	width:0%;
 	height:40%;
-	position: inherit; 
+	position: contain; 
 	left: 740px;
 	transform: translate(127%,0);
 }
