@@ -10,7 +10,7 @@ html, body {
 }
 html{
 	background: url("bg.jpg") no-repeat;
-height: 130%; 
+height: 160%; 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -25,7 +25,7 @@ body{
 }
 .parallax-window {   
     min-height:400px;
-    background: transparent;
+    background:transparent;
 }
 img{
 	width:0%;
