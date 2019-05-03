@@ -4,18 +4,14 @@ aside, article, section, header, footer, nav {
 }
 
 html, body {
-	margin: 2;
-	padding: 2;
+	margin: 0;
+	padding: 0;
 
 }
 html{
-	background: url("bg.jpg") no-repeat;
-height: 160%; 
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+	background: url(bg.jpg) no-repeat;
+	background-size: cover;
 }
-
 body{
 	background-color: rgba(135,206,250,0.2);
 	width: 700px;
@@ -23,14 +19,10 @@ body{
 	font: 100% Arial, Helvetica, sans-serif;
 	padding: 25px;
 }
-.parallax-window {   
-    min-height:400px;
-    background:transparent;
-}
 img{
-	width:0%;
+	width:40%;
 	height:40%;
-	position: contain; 
+	position: inherit; 
 	left: 740px;
 	transform: translate(127%,0);
 }
@@ -111,6 +103,30 @@ button[type=submit]:hover {
 
 }.menuContent a:hover{background-color: #ddd}.show{display:block;}
 
+#sidebar{
+	position: fixed;
+	width: 300px;
+	height: 100%;
+	background-color: white;
+	cursor: pointer;
+	left: -300px;
+}
+#sidebar.active{
+	left: 0px;
+}
+#sidebar a{
+	padding:15px 10px;
+	border-bottom: 1px solid grey;
+}
+#sidebar .togglebtn span{
+display: block;
+width: 4.1em;
+  height: 1.1em; 
+  background-color: #3498DB;
+  margin: 5px 0;
+
+}
+
 @media only screen and (min-width: 600px) and (max-width: 920px){
 	body{
 		width: 90%;
@@ -136,3 +152,5 @@ button[type=submit]:hover {
 		right: 50px;
 
 	}
+
+}
